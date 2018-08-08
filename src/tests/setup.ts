@@ -3,13 +3,13 @@ import { server } from "./utils/MockServer";
 
 import "mocha";
 
-import chai = require("chai");
+const chai = require("chai");
 // import chaiAsPromised = require("chai-as-promised");
-import requireDir = require("require-dir");
+const requireDir = require("require-dir");
 
 
 
-import chaiHttp = require("chai-http");
+const chaiHttp = require("chai-http");
 // Setup chai plugins
 chai.use(chaiHttp);
 

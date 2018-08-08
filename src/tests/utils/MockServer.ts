@@ -8,7 +8,7 @@ export const mockServerBaseUrl = "http://localhost:" + mockServerPort;
 export class MockServer {
     // the express and server instance
     app: express.Express;
-    server;
+    server: any;
 
     constructor() {
         this.app = express();

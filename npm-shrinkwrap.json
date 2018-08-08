@@ -1,0 +1,1122 @@
+{
+  "name": "auth-stapler",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/chai": {
+      "version": "3.5.2",
+      "from": "@types/chai@3.5.2",
+      "resolved": "https://npm.allaboutapps.at/@types%2fchai/-/chai-3.5.2.tgz",
+      "dev": true
+    },
+    "@types/chai-http": {
+      "version": "0.0.30",
+      "from": "@types/chai-http@0.0.30",
+      "resolved": "https://npm.allaboutapps.at/@types%2fchai-http/-/chai-http-0.0.30.tgz",
+      "dev": true
+    },
+    "@types/core-js": {
+      "version": "0.9.46",
+      "from": "@types/core-js@>=0.9.41 <0.10.0",
+      "resolved": "https://npm.allaboutapps.at/@types%2fcore-js/-/core-js-0.9.46.tgz"
+    },
+    "@types/events": {
+      "version": "1.2.0",
+      "from": "@types/events@*",
+      "resolved": "https://npm.allaboutapps.at/@types%2fevents/-/events-1.2.0.tgz",
+      "dev": true
+    },
+    "@types/express": {
+      "version": "4.0.35",
+      "from": "@types/express@4.0.35",
+      "resolved": "https://registry.npmjs.org/@types/express/-/express-4.0.35.tgz",
+      "dev": true
+    },
+    "@types/express-serve-static-core": {
+      "version": "4.16.0",
+      "from": "@types/express-serve-static-core@*",
+      "resolved": "https://npm.allaboutapps.at/@types%2fexpress-serve-static-core/-/express-serve-static-core-4.16.0.tgz",
+      "dev": true
+    },
+    "@types/mime": {
+      "version": "2.0.0",
+      "from": "@types/mime@*",
+      "resolved": "https://registry.npmjs.org/@types/mime/-/mime-2.0.0.tgz",
+      "dev": true
+    },
+    "@types/mocha": {
+      "version": "2.2.41",
+      "from": "@types/mocha@2.2.41",
+      "resolved": "https://registry.npmjs.org/@types/mocha/-/mocha-2.2.41.tgz",
+      "dev": true
+    },
+    "@types/node": {
+      "version": "10.5.7",
+      "from": "@types/node@*",
+      "resolved": "https://npm.allaboutapps.at/@types%2fnode/-/node-10.5.7.tgz",
+      "dev": true
+    },
+    "@types/range-parser": {
+      "version": "1.2.2",
+      "from": "@types/range-parser@*",
+      "resolved": "https://npm.allaboutapps.at/@types%2frange-parser/-/range-parser-1.2.2.tgz",
+      "dev": true
+    },
+    "@types/serve-static": {
+      "version": "1.13.2",
+      "from": "@types/serve-static@*",
+      "resolved": "https://npm.allaboutapps.at/@types%2fserve-static/-/serve-static-1.13.2.tgz",
+      "dev": true
+    },
+    "accepts": {
+      "version": "1.3.5",
+      "from": "accepts@>=1.3.3 <1.4.0",
+      "resolved": "https://npm.allaboutapps.at/accepts/-/accepts-1.3.5.tgz",
+      "dev": true
+    },
+    "ansi-regex": {
+      "version": "2.1.1",
+      "from": "ansi-regex@>=2.0.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz",
+      "dev": true
+    },
+    "ansi-styles": {
+      "version": "2.2.1",
+      "from": "ansi-styles@>=2.2.1 <3.0.0",
+      "resolved": "https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz",
+      "dev": true
+    },
+    "arr-union": {
+      "version": "3.1.0",
+      "from": "arr-union@>=3.1.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/arr-union/-/arr-union-3.1.0.tgz",
+      "dev": true
+    },
+    "array-flatten": {
+      "version": "1.1.1",
+      "from": "array-flatten@1.1.1",
+      "resolved": "https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz",
+      "dev": true
+    },
+    "assertion-error": {
+      "version": "1.1.0",
+      "from": "assertion-error@>=1.0.1 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/assertion-error/-/assertion-error-1.1.0.tgz",
+      "dev": true
+    },
+    "async": {
+      "version": "1.5.2",
+      "from": "async@>=1.5.2 <2.0.0",
+      "resolved": "https://registry.npmjs.org/async/-/async-1.5.2.tgz",
+      "dev": true
+    },
+    "async-array-reduce": {
+      "version": "0.2.1",
+      "from": "async-array-reduce@>=0.2.0 <0.3.0",
+      "resolved": "https://npm.allaboutapps.at/async-array-reduce/-/async-array-reduce-0.2.1.tgz",
+      "dev": true
+    },
+    "babel-code-frame": {
+      "version": "6.26.0",
+      "from": "babel-code-frame@>=6.22.0 <7.0.0",
+      "resolved": "https://registry.npmjs.org/babel-code-frame/-/babel-code-frame-6.26.0.tgz",
+      "dev": true
+    },
+    "balanced-match": {
+      "version": "1.0.0",
+      "from": "balanced-match@>=1.0.0 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/balanced-match/-/balanced-match-1.0.0.tgz",
+      "dev": true
+    },
+    "brace-expansion": {
+      "version": "1.1.11",
+      "from": "brace-expansion@>=1.1.7 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/brace-expansion/-/brace-expansion-1.1.11.tgz",
+      "dev": true
+    },
+    "browser-stdout": {
+      "version": "1.3.0",
+      "from": "browser-stdout@1.3.0",
+      "resolved": "https://registry.npmjs.org/browser-stdout/-/browser-stdout-1.3.0.tgz",
+      "dev": true
+    },
+    "chai": {
+      "version": "4.0.0",
+      "from": "chai@4.0.0",
+      "resolved": "https://npm.allaboutapps.at/chai/-/chai-4.0.0.tgz",
+      "dev": true
+    },
+    "chai-http": {
+      "version": "3.0.0",
+      "from": "chai-http@3.0.0",
+      "resolved": "https://npm.allaboutapps.at/chai-http/-/chai-http-3.0.0.tgz",
+      "dev": true
+    },
+    "chalk": {
+      "version": "1.1.3",
+      "from": "chalk@>=1.1.3 <2.0.0",
+      "resolved": "https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz",
+      "dev": true,
+      "dependencies": {
+        "supports-color": {
+          "version": "2.0.0",
+          "from": "supports-color@>=2.0.0 <3.0.0",
+          "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz",
+          "dev": true
+        }
+      }
+    },
+    "check-error": {
+      "version": "1.0.2",
+      "from": "check-error@>=1.0.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/check-error/-/check-error-1.0.2.tgz",
+      "dev": true
+    },
+    "colors": {
+      "version": "1.3.1",
+      "from": "colors@>=1.1.2 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/colors/-/colors-1.3.1.tgz",
+      "dev": true
+    },
+    "combined-stream": {
+      "version": "1.0.6",
+      "from": "combined-stream@>=1.0.5 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/combined-stream/-/combined-stream-1.0.6.tgz",
+      "dev": true
+    },
+    "commander": {
+      "version": "2.9.0",
+      "from": "commander@2.9.0",
+      "resolved": "https://registry.npmjs.org/commander/-/commander-2.9.0.tgz",
+      "dev": true
+    },
+    "component-emitter": {
+      "version": "1.2.1",
+      "from": "component-emitter@>=1.2.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/component-emitter/-/component-emitter-1.2.1.tgz",
+      "dev": true
+    },
+    "concat-map": {
+      "version": "0.0.1",
+      "from": "concat-map@0.0.1",
+      "resolved": "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz",
+      "dev": true
+    },
+    "content-disposition": {
+      "version": "0.5.2",
+      "from": "content-disposition@0.5.2",
+      "resolved": "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.2.tgz",
+      "dev": true
+    },
+    "content-type": {
+      "version": "1.0.4",
+      "from": "content-type@>=1.0.2 <1.1.0",
+      "resolved": "https://npm.allaboutapps.at/content-type/-/content-type-1.0.4.tgz",
+      "dev": true
+    },
+    "cookie": {
+      "version": "0.3.1",
+      "from": "cookie@0.3.1",
+      "resolved": "https://registry.npmjs.org/cookie/-/cookie-0.3.1.tgz",
+      "dev": true
+    },
+    "cookie-signature": {
+      "version": "1.0.6",
+      "from": "cookie-signature@1.0.6",
+      "resolved": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz",
+      "dev": true
+    },
+    "cookiejar": {
+      "version": "2.0.6",
+      "from": "cookiejar@>=2.0.0 <2.1.0",
+      "resolved": "https://registry.npmjs.org/cookiejar/-/cookiejar-2.0.6.tgz",
+      "dev": true
+    },
+    "core-util-is": {
+      "version": "1.0.2",
+      "from": "core-util-is@>=1.0.0 <1.1.0",
+      "resolved": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz",
+      "dev": true
+    },
+    "debug": {
+      "version": "2.6.9",
+      "from": "debug@>=2.2.0 <3.0.0",
+      "resolved": "https://npm.allaboutapps.at/debug/-/debug-2.6.9.tgz",
+      "dev": true
+    },
+    "deep-eql": {
+      "version": "2.0.2",
+      "from": "deep-eql@>=2.0.1 <3.0.0",
+      "resolved": "https://npm.allaboutapps.at/deep-eql/-/deep-eql-2.0.2.tgz",
+      "dev": true,
+      "dependencies": {
+        "type-detect": {
+          "version": "3.0.0",
+          "from": "type-detect@>=3.0.0 <4.0.0",
+          "resolved": "https://npm.allaboutapps.at/type-detect/-/type-detect-3.0.0.tgz",
+          "dev": true
+        }
+      }
+    },
+    "delayed-stream": {
+      "version": "1.0.0",
+      "from": "delayed-stream@>=1.0.0 <1.1.0",
+      "resolved": "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz",
+      "dev": true
+    },
+    "depd": {
+      "version": "1.1.2",
+      "from": "depd@>=1.1.0 <1.2.0",
+      "resolved": "https://npm.allaboutapps.at/depd/-/depd-1.1.2.tgz",
+      "dev": true
+    },
+    "destroy": {
+      "version": "1.0.4",
+      "from": "destroy@>=1.0.4 <1.1.0",
+      "resolved": "https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz",
+      "dev": true
+    },
+    "diff": {
+      "version": "3.2.0",
+      "from": "diff@3.2.0",
+      "resolved": "https://registry.npmjs.org/diff/-/diff-3.2.0.tgz",
+      "dev": true
+    },
+    "ee-first": {
+      "version": "1.1.1",
+      "from": "ee-first@1.1.1",
+      "resolved": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz",
+      "dev": true
+    },
+    "encodeurl": {
+      "version": "1.0.2",
+      "from": "encodeurl@>=1.0.1 <1.1.0",
+      "resolved": "https://npm.allaboutapps.at/encodeurl/-/encodeurl-1.0.2.tgz",
+      "dev": true
+    },
+    "encoding": {
+      "version": "0.1.12",
+      "from": "encoding@>=0.1.11 <0.2.0",
+      "resolved": "https://registry.npmjs.org/encoding/-/encoding-0.1.12.tgz",
+      "dev": true
+    },
+    "escape-html": {
+      "version": "1.0.3",
+      "from": "escape-html@>=1.0.3 <1.1.0",
+      "resolved": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",
+      "dev": true
+    },
+    "escape-string-regexp": {
+      "version": "1.0.5",
+      "from": "escape-string-regexp@1.0.5",
+      "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz",
+      "dev": true
+    },
+    "esutils": {
+      "version": "2.0.2",
+      "from": "esutils@>=2.0.2 <3.0.0",
+      "resolved": "https://registry.npmjs.org/esutils/-/esutils-2.0.2.tgz",
+      "dev": true
+    },
+    "etag": {
+      "version": "1.8.1",
+      "from": "etag@>=1.8.0 <1.9.0",
+      "resolved": "https://npm.allaboutapps.at/etag/-/etag-1.8.1.tgz",
+      "dev": true
+    },
+    "expand-tilde": {
+      "version": "1.2.2",
+      "from": "expand-tilde@>=1.2.2 <2.0.0",
+      "resolved": "https://registry.npmjs.org/expand-tilde/-/expand-tilde-1.2.2.tgz",
+      "dev": true
+    },
+    "express": {
+      "version": "4.15.3",
+      "from": "express@4.15.3",
+      "resolved": "https://npm.allaboutapps.at/express/-/express-4.15.3.tgz",
+      "dev": true,
+      "dependencies": {
+        "debug": {
+          "version": "2.6.7",
+          "from": "debug@2.6.7",
+          "resolved": "https://npm.allaboutapps.at/debug/-/debug-2.6.7.tgz",
+          "dev": true
+        },
+        "qs": {
+          "version": "6.4.0",
+          "from": "qs@6.4.0",
+          "resolved": "https://registry.npmjs.org/qs/-/qs-6.4.0.tgz",
+          "dev": true
+        }
+      }
+    },
+    "extend": {
+      "version": "3.0.2",
+      "from": "extend@>=3.0.0 <4.0.0",
+      "resolved": "https://npm.allaboutapps.at/extend/-/extend-3.0.2.tgz",
+      "dev": true
+    },
+    "extend-shallow": {
+      "version": "2.0.1",
+      "from": "extend-shallow@>=2.0.1 <3.0.0",
+      "resolved": "https://registry.npmjs.org/extend-shallow/-/extend-shallow-2.0.1.tgz",
+      "dev": true
+    },
+    "finalhandler": {
+      "version": "1.0.6",
+      "from": "finalhandler@>=1.0.3 <1.1.0",
+      "resolved": "https://npm.allaboutapps.at/finalhandler/-/finalhandler-1.0.6.tgz",
+      "dev": true
+    },
+    "form-data": {
+      "version": "1.0.0-rc4",
+      "from": "form-data@1.0.0-rc4",
+      "resolved": "https://registry.npmjs.org/form-data/-/form-data-1.0.0-rc4.tgz",
+      "dev": true
+    },
+    "formidable": {
+      "version": "1.2.1",
+      "from": "formidable@>=1.0.17 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/formidable/-/formidable-1.2.1.tgz",
+      "dev": true
+    },
+    "forwarded": {
+      "version": "0.1.2",
+      "from": "forwarded@>=0.1.0 <0.2.0",
+      "resolved": "https://npm.allaboutapps.at/forwarded/-/forwarded-0.1.2.tgz",
+      "dev": true
+    },
+    "fresh": {
+      "version": "0.5.0",
+      "from": "fresh@0.5.0",
+      "resolved": "https://registry.npmjs.org/fresh/-/fresh-0.5.0.tgz",
+      "dev": true
+    },
+    "fs-exists-sync": {
+      "version": "0.1.0",
+      "from": "fs-exists-sync@>=0.1.0 <0.2.0",
+      "resolved": "https://registry.npmjs.org/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz",
+      "dev": true
+    },
+    "fs.realpath": {
+      "version": "1.0.0",
+      "from": "fs.realpath@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz",
+      "dev": true
+    },
+    "get-func-name": {
+      "version": "2.0.0",
+      "from": "get-func-name@>=2.0.0 <3.0.0",
+      "resolved": "https://npm.allaboutapps.at/get-func-name/-/get-func-name-2.0.0.tgz",
+      "dev": true
+    },
+    "glob": {
+      "version": "7.1.1",
+      "from": "glob@7.1.1",
+      "resolved": "https://npm.allaboutapps.at/glob/-/glob-7.1.1.tgz",
+      "dev": true
+    },
+    "global-modules": {
+      "version": "0.2.3",
+      "from": "global-modules@>=0.2.3 <0.3.0",
+      "resolved": "https://registry.npmjs.org/global-modules/-/global-modules-0.2.3.tgz",
+      "dev": true
+    },
+    "global-prefix": {
+      "version": "0.1.5",
+      "from": "global-prefix@>=0.1.4 <0.2.0",
+      "resolved": "https://registry.npmjs.org/global-prefix/-/global-prefix-0.1.5.tgz",
+      "dev": true
+    },
+    "graceful-readlink": {
+      "version": "1.0.1",
+      "from": "graceful-readlink@>=1.0.0",
+      "resolved": "https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz",
+      "dev": true
+    },
+    "growl": {
+      "version": "1.9.2",
+      "from": "growl@1.9.2",
+      "resolved": "https://registry.npmjs.org/growl/-/growl-1.9.2.tgz",
+      "dev": true
+    },
+    "has-ansi": {
+      "version": "2.0.0",
+      "from": "has-ansi@>=2.0.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz",
+      "dev": true
+    },
+    "has-flag": {
+      "version": "1.0.0",
+      "from": "has-flag@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/has-flag/-/has-flag-1.0.0.tgz",
+      "dev": true
+    },
+    "has-glob": {
+      "version": "0.1.1",
+      "from": "has-glob@>=0.1.1 <0.2.0",
+      "resolved": "https://registry.npmjs.org/has-glob/-/has-glob-0.1.1.tgz",
+      "dev": true
+    },
+    "homedir-polyfill": {
+      "version": "1.0.1",
+      "from": "homedir-polyfill@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/homedir-polyfill/-/homedir-polyfill-1.0.1.tgz",
+      "dev": true
+    },
+    "http-errors": {
+      "version": "1.6.3",
+      "from": "http-errors@>=1.6.1 <1.7.0",
+      "resolved": "https://npm.allaboutapps.at/http-errors/-/http-errors-1.6.3.tgz",
+      "dev": true,
+      "dependencies": {
+        "setprototypeof": {
+          "version": "1.1.0",
+          "from": "setprototypeof@1.1.0",
+          "resolved": "https://npm.allaboutapps.at/setprototypeof/-/setprototypeof-1.1.0.tgz",
+          "dev": true
+        },
+        "statuses": {
+          "version": "1.5.0",
+          "from": "statuses@>=1.4.0 <2.0.0",
+          "resolved": "https://npm.allaboutapps.at/statuses/-/statuses-1.5.0.tgz",
+          "dev": true
+        }
+      }
+    },
+    "iconv-lite": {
+      "version": "0.4.23",
+      "from": "iconv-lite@>=0.4.13 <0.5.0",
+      "resolved": "https://npm.allaboutapps.at/iconv-lite/-/iconv-lite-0.4.23.tgz",
+      "dev": true
+    },
+    "inflight": {
+      "version": "1.0.6",
+      "from": "inflight@>=1.0.4 <2.0.0",
+      "resolved": "https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz",
+      "dev": true
+    },
+    "inherits": {
+      "version": "2.0.3",
+      "from": "inherits@>=2.0.3 <2.1.0",
+      "resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz",
+      "dev": true
+    },
+    "ini": {
+      "version": "1.3.5",
+      "from": "ini@>=1.3.4 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/ini/-/ini-1.3.5.tgz",
+      "dev": true
+    },
+    "ip-regex": {
+      "version": "1.0.3",
+      "from": "ip-regex@>=1.0.0 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/ip-regex/-/ip-regex-1.0.3.tgz",
+      "dev": true
+    },
+    "ipaddr.js": {
+      "version": "1.4.0",
+      "from": "ipaddr.js@1.4.0",
+      "resolved": "https://npm.allaboutapps.at/ipaddr.js/-/ipaddr.js-1.4.0.tgz",
+      "dev": true
+    },
+    "is-buffer": {
+      "version": "1.1.6",
+      "from": "is-buffer@>=1.1.5 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/is-buffer/-/is-buffer-1.1.6.tgz",
+      "dev": true
+    },
+    "is-extendable": {
+      "version": "0.1.1",
+      "from": "is-extendable@>=0.1.0 <0.2.0",
+      "resolved": "https://registry.npmjs.org/is-extendable/-/is-extendable-0.1.1.tgz",
+      "dev": true
+    },
+    "is-extglob": {
+      "version": "1.0.0",
+      "from": "is-extglob@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/is-extglob/-/is-extglob-1.0.0.tgz",
+      "dev": true
+    },
+    "is-glob": {
+      "version": "2.0.1",
+      "from": "is-glob@>=2.0.1 <3.0.0",
+      "resolved": "https://registry.npmjs.org/is-glob/-/is-glob-2.0.1.tgz",
+      "dev": true
+    },
+    "is-ip": {
+      "version": "1.0.0",
+      "from": "is-ip@1.0.0",
+      "resolved": "https://npm.allaboutapps.at/is-ip/-/is-ip-1.0.0.tgz",
+      "dev": true
+    },
+    "is-stream": {
+      "version": "1.1.0",
+      "from": "is-stream@>=1.0.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/is-stream/-/is-stream-1.1.0.tgz",
+      "dev": true
+    },
+    "is-valid-glob": {
+      "version": "0.3.0",
+      "from": "is-valid-glob@>=0.3.0 <0.4.0",
+      "resolved": "https://registry.npmjs.org/is-valid-glob/-/is-valid-glob-0.3.0.tgz",
+      "dev": true
+    },
+    "is-windows": {
+      "version": "0.2.0",
+      "from": "is-windows@>=0.2.0 <0.3.0",
+      "resolved": "https://registry.npmjs.org/is-windows/-/is-windows-0.2.0.tgz",
+      "dev": true
+    },
+    "isarray": {
+      "version": "1.0.0",
+      "from": "isarray@>=1.0.0 <1.1.0",
+      "resolved": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+      "dev": true
+    },
+    "isexe": {
+      "version": "2.0.0",
+      "from": "isexe@>=2.0.0 <3.0.0",
+      "resolved": "https://npm.allaboutapps.at/isexe/-/isexe-2.0.0.tgz",
+      "dev": true
+    },
+    "isobject": {
+      "version": "2.1.0",
+      "from": "isobject@>=2.0.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/isobject/-/isobject-2.1.0.tgz",
+      "dev": true
+    },
+    "isomorphic-fetch": {
+      "version": "2.2.1",
+      "from": "isomorphic-fetch@2.2.1",
+      "resolved": "https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz",
+      "dev": true
+    },
+    "js-tokens": {
+      "version": "3.0.2",
+      "from": "js-tokens@>=3.0.2 <4.0.0",
+      "resolved": "https://npm.allaboutapps.at/js-tokens/-/js-tokens-3.0.2.tgz",
+      "dev": true
+    },
+    "json3": {
+      "version": "3.3.2",
+      "from": "json3@3.3.2",
+      "resolved": "https://registry.npmjs.org/json3/-/json3-3.3.2.tgz",
+      "dev": true
+    },
+    "kind-of": {
+      "version": "3.2.2",
+      "from": "kind-of@>=3.0.2 <4.0.0",
+      "resolved": "https://npm.allaboutapps.at/kind-of/-/kind-of-3.2.2.tgz",
+      "dev": true
+    },
+    "lazy-cache": {
+      "version": "1.0.4",
+      "from": "lazy-cache@>=1.0.3 <2.0.0",
+      "resolved": "https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz",
+      "dev": true
+    },
+    "lodash": {
+      "version": "4.17.4",
+      "from": "lodash@4.17.4",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.4.tgz",
+      "dev": true
+    },
+    "lodash._baseassign": {
+      "version": "3.2.0",
+      "from": "lodash._baseassign@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash._baseassign/-/lodash._baseassign-3.2.0.tgz",
+      "dev": true
+    },
+    "lodash._basecopy": {
+      "version": "3.0.1",
+      "from": "lodash._basecopy@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash._basecopy/-/lodash._basecopy-3.0.1.tgz",
+      "dev": true
+    },
+    "lodash._basecreate": {
+      "version": "3.0.3",
+      "from": "lodash._basecreate@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash._basecreate/-/lodash._basecreate-3.0.3.tgz",
+      "dev": true
+    },
+    "lodash._getnative": {
+      "version": "3.9.1",
+      "from": "lodash._getnative@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash._getnative/-/lodash._getnative-3.9.1.tgz",
+      "dev": true
+    },
+    "lodash._isiterateecall": {
+      "version": "3.0.9",
+      "from": "lodash._isiterateecall@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash._isiterateecall/-/lodash._isiterateecall-3.0.9.tgz",
+      "dev": true
+    },
+    "lodash.create": {
+      "version": "3.1.1",
+      "from": "lodash.create@3.1.1",
+      "resolved": "https://registry.npmjs.org/lodash.create/-/lodash.create-3.1.1.tgz",
+      "dev": true
+    },
+    "lodash.isarguments": {
+      "version": "3.1.0",
+      "from": "lodash.isarguments@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz",
+      "dev": true
+    },
+    "lodash.isarray": {
+      "version": "3.0.4",
+      "from": "lodash.isarray@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.isarray/-/lodash.isarray-3.0.4.tgz",
+      "dev": true
+    },
+    "lodash.keys": {
+      "version": "3.1.2",
+      "from": "lodash.keys@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.keys/-/lodash.keys-3.1.2.tgz",
+      "dev": true
+    },
+    "matched": {
+      "version": "0.4.4",
+      "from": "matched@>=0.4.1 <0.5.0",
+      "resolved": "https://registry.npmjs.org/matched/-/matched-0.4.4.tgz",
+      "dev": true,
+      "dependencies": {
+        "lazy-cache": {
+          "version": "2.0.2",
+          "from": "lazy-cache@>=2.0.1 <3.0.0",
+          "resolved": "https://npm.allaboutapps.at/lazy-cache/-/lazy-cache-2.0.2.tgz",
+          "dev": true
+        }
+      }
+    },
+    "media-typer": {
+      "version": "0.3.0",
+      "from": "media-typer@0.3.0",
+      "resolved": "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz",
+      "dev": true
+    },
+    "merge-descriptors": {
+      "version": "1.0.1",
+      "from": "merge-descriptors@1.0.1",
+      "resolved": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz",
+      "dev": true
+    },
+    "methods": {
+      "version": "1.1.2",
+      "from": "methods@>=1.1.2 <2.0.0",
+      "resolved": "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz",
+      "dev": true
+    },
+    "mime": {
+      "version": "1.6.0",
+      "from": "mime@>=1.3.4 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/mime/-/mime-1.6.0.tgz",
+      "dev": true
+    },
+    "mime-db": {
+      "version": "1.35.0",
+      "from": "mime-db@>=1.35.0 <1.36.0",
+      "resolved": "https://npm.allaboutapps.at/mime-db/-/mime-db-1.35.0.tgz",
+      "dev": true
+    },
+    "mime-types": {
+      "version": "2.1.19",
+      "from": "mime-types@>=2.1.10 <3.0.0",
+      "resolved": "https://npm.allaboutapps.at/mime-types/-/mime-types-2.1.19.tgz",
+      "dev": true
+    },
+    "minimatch": {
+      "version": "3.0.4",
+      "from": "minimatch@>=3.0.2 <4.0.0",
+      "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz",
+      "dev": true
+    },
+    "minimist": {
+      "version": "0.0.8",
+      "from": "minimist@0.0.8",
+      "resolved": "https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz",
+      "dev": true
+    },
+    "mkdirp": {
+      "version": "0.5.1",
+      "from": "mkdirp@0.5.1",
+      "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz",
+      "dev": true
+    },
+    "mocha": {
+      "version": "3.4.2",
+      "from": "mocha@3.4.2",
+      "resolved": "https://npm.allaboutapps.at/mocha/-/mocha-3.4.2.tgz",
+      "dev": true,
+      "dependencies": {
+        "debug": {
+          "version": "2.6.0",
+          "from": "debug@2.6.0",
+          "resolved": "https://registry.npmjs.org/debug/-/debug-2.6.0.tgz",
+          "dev": true
+        },
+        "ms": {
+          "version": "0.7.2",
+          "from": "ms@0.7.2",
+          "resolved": "https://registry.npmjs.org/ms/-/ms-0.7.2.tgz",
+          "dev": true
+        }
+      }
+    },
+    "ms": {
+      "version": "2.0.0",
+      "from": "ms@2.0.0",
+      "resolved": "https://npm.allaboutapps.at/ms/-/ms-2.0.0.tgz",
+      "dev": true
+    },
+    "negotiator": {
+      "version": "0.6.1",
+      "from": "negotiator@0.6.1",
+      "resolved": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.1.tgz",
+      "dev": true
+    },
+    "network-stapler": {
+      "version": "1.1.0",
+      "from": "network-stapler@>=1.0.6 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/network-stapler/-/network-stapler-1.1.0.tgz"
+    },
+    "node-fetch": {
+      "version": "1.7.3",
+      "from": "node-fetch@>=1.0.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/node-fetch/-/node-fetch-1.7.3.tgz",
+      "dev": true
+    },
+    "object-assign": {
+      "version": "4.1.1",
+      "from": "object-assign@>=4.1.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
+    },
+    "on-finished": {
+      "version": "2.3.0",
+      "from": "on-finished@>=2.3.0 <2.4.0",
+      "resolved": "https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz",
+      "dev": true
+    },
+    "once": {
+      "version": "1.4.0",
+      "from": "once@>=1.3.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/once/-/once-1.4.0.tgz",
+      "dev": true
+    },
+    "optimist": {
+      "version": "0.6.1",
+      "from": "optimist@>=0.6.0 <0.7.0",
+      "resolved": "https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz",
+      "dev": true
+    },
+    "os-homedir": {
+      "version": "1.0.2",
+      "from": "os-homedir@>=1.0.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/os-homedir/-/os-homedir-1.0.2.tgz",
+      "dev": true
+    },
+    "parse-passwd": {
+      "version": "1.0.0",
+      "from": "parse-passwd@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/parse-passwd/-/parse-passwd-1.0.0.tgz",
+      "dev": true
+    },
+    "parseurl": {
+      "version": "1.3.2",
+      "from": "parseurl@>=1.3.1 <1.4.0",
+      "resolved": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.2.tgz",
+      "dev": true
+    },
+    "path-is-absolute": {
+      "version": "1.0.1",
+      "from": "path-is-absolute@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz",
+      "dev": true
+    },
+    "path-parse": {
+      "version": "1.0.6",
+      "from": "path-parse@>=1.0.5 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/path-parse/-/path-parse-1.0.6.tgz",
+      "dev": true
+    },
+    "path-to-regexp": {
+      "version": "0.1.7",
+      "from": "path-to-regexp@0.1.7",
+      "resolved": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz",
+      "dev": true
+    },
+    "pathval": {
+      "version": "1.1.0",
+      "from": "pathval@>=1.0.0 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/pathval/-/pathval-1.1.0.tgz",
+      "dev": true
+    },
+    "process-nextick-args": {
+      "version": "2.0.0",
+      "from": "process-nextick-args@>=2.0.0 <2.1.0",
+      "resolved": "https://npm.allaboutapps.at/process-nextick-args/-/process-nextick-args-2.0.0.tgz",
+      "dev": true
+    },
+    "proxy-addr": {
+      "version": "1.1.5",
+      "from": "proxy-addr@>=1.1.4 <1.2.0",
+      "resolved": "https://npm.allaboutapps.at/proxy-addr/-/proxy-addr-1.1.5.tgz",
+      "dev": true
+    },
+    "qs": {
+      "version": "6.5.2",
+      "from": "qs@>=6.2.0 <7.0.0",
+      "resolved": "https://npm.allaboutapps.at/qs/-/qs-6.5.2.tgz",
+      "dev": true
+    },
+    "query-string": {
+      "version": "4.3.4",
+      "from": "query-string@>=4.3.4 <5.0.0",
+      "resolved": "https://registry.npmjs.org/query-string/-/query-string-4.3.4.tgz"
+    },
+    "range-parser": {
+      "version": "1.2.0",
+      "from": "range-parser@>=1.2.0 <1.3.0",
+      "resolved": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.0.tgz",
+      "dev": true
+    },
+    "readable-stream": {
+      "version": "2.3.6",
+      "from": "readable-stream@>=2.0.5 <3.0.0",
+      "resolved": "https://npm.allaboutapps.at/readable-stream/-/readable-stream-2.3.6.tgz",
+      "dev": true
+    },
+    "relative": {
+      "version": "3.0.2",
+      "from": "relative@>=3.0.2 <4.0.0",
+      "resolved": "https://registry.npmjs.org/relative/-/relative-3.0.2.tgz",
+      "dev": true
+    },
+    "require-dir": {
+      "version": "0.3.1",
+      "from": "require-dir@0.3.1",
+      "resolved": "https://registry.npmjs.org/require-dir/-/require-dir-0.3.1.tgz",
+      "dev": true
+    },
+    "resolve": {
+      "version": "1.8.1",
+      "from": "resolve@>=1.3.2 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/resolve/-/resolve-1.8.1.tgz",
+      "dev": true
+    },
+    "resolve-dir": {
+      "version": "0.1.1",
+      "from": "resolve-dir@>=0.1.0 <0.2.0",
+      "resolved": "https://registry.npmjs.org/resolve-dir/-/resolve-dir-0.1.1.tgz",
+      "dev": true
+    },
+    "resolve-glob": {
+      "version": "0.1.8",
+      "from": "resolve-glob@0.1.8",
+      "resolved": "https://registry.npmjs.org/resolve-glob/-/resolve-glob-0.1.8.tgz",
+      "dev": true
+    },
+    "rimraf": {
+      "version": "2.6.1",
+      "from": "rimraf@2.6.1",
+      "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-2.6.1.tgz",
+      "dev": true
+    },
+    "rxjs": {
+      "version": "5.4.0",
+      "from": "rxjs@5.4.0",
+      "resolved": "https://npm.allaboutapps.at/rxjs/-/rxjs-5.4.0.tgz"
+    },
+    "safe-buffer": {
+      "version": "5.1.2",
+      "from": "safe-buffer@>=5.1.1 <5.2.0",
+      "resolved": "https://npm.allaboutapps.at/safe-buffer/-/safe-buffer-5.1.2.tgz",
+      "dev": true
+    },
+    "safer-buffer": {
+      "version": "2.1.2",
+      "from": "safer-buffer@>=2.1.2 <3.0.0",
+      "resolved": "https://npm.allaboutapps.at/safer-buffer/-/safer-buffer-2.1.2.tgz",
+      "dev": true
+    },
+    "semver": {
+      "version": "5.5.0",
+      "from": "semver@>=5.3.0 <6.0.0",
+      "resolved": "https://npm.allaboutapps.at/semver/-/semver-5.5.0.tgz",
+      "dev": true
+    },
+    "send": {
+      "version": "0.15.3",
+      "from": "send@0.15.3",
+      "resolved": "https://npm.allaboutapps.at/send/-/send-0.15.3.tgz",
+      "dev": true,
+      "dependencies": {
+        "debug": {
+          "version": "2.6.7",
+          "from": "debug@2.6.7",
+          "resolved": "https://npm.allaboutapps.at/debug/-/debug-2.6.7.tgz",
+          "dev": true
+        },
+        "mime": {
+          "version": "1.3.4",
+          "from": "mime@1.3.4",
+          "resolved": "https://registry.npmjs.org/mime/-/mime-1.3.4.tgz",
+          "dev": true
+        }
+      }
+    },
+    "serve-static": {
+      "version": "1.12.3",
+      "from": "serve-static@1.12.3",
+      "resolved": "https://npm.allaboutapps.at/serve-static/-/serve-static-1.12.3.tgz",
+      "dev": true
+    },
+    "set-getter": {
+      "version": "0.1.0",
+      "from": "set-getter@>=0.1.0 <0.2.0",
+      "resolved": "https://registry.npmjs.org/set-getter/-/set-getter-0.1.0.tgz",
+      "dev": true
+    },
+    "setprototypeof": {
+      "version": "1.0.3",
+      "from": "setprototypeof@1.0.3",
+      "resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.0.3.tgz",
+      "dev": true
+    },
+    "statuses": {
+      "version": "1.3.1",
+      "from": "statuses@>=1.3.1 <1.4.0",
+      "resolved": "https://registry.npmjs.org/statuses/-/statuses-1.3.1.tgz",
+      "dev": true
+    },
+    "strict-uri-encode": {
+      "version": "1.1.0",
+      "from": "strict-uri-encode@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz"
+    },
+    "string_decoder": {
+      "version": "1.1.1",
+      "from": "string_decoder@>=1.1.1 <1.2.0",
+      "resolved": "https://npm.allaboutapps.at/string_decoder/-/string_decoder-1.1.1.tgz",
+      "dev": true
+    },
+    "strip-ansi": {
+      "version": "3.0.1",
+      "from": "strip-ansi@>=3.0.0 <4.0.0",
+      "resolved": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz",
+      "dev": true
+    },
+    "superagent": {
+      "version": "2.3.0",
+      "from": "superagent@>=2.0.0 <3.0.0",
+      "resolved": "https://npm.allaboutapps.at/superagent/-/superagent-2.3.0.tgz",
+      "dev": true
+    },
+    "supports-color": {
+      "version": "3.1.2",
+      "from": "supports-color@3.1.2",
+      "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-3.1.2.tgz",
+      "dev": true
+    },
+    "symbol-observable": {
+      "version": "1.2.0",
+      "from": "symbol-observable@>=1.0.1 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/symbol-observable/-/symbol-observable-1.2.0.tgz"
+    },
+    "to-object-path": {
+      "version": "0.3.0",
+      "from": "to-object-path@>=0.3.0 <0.4.0",
+      "resolved": "https://registry.npmjs.org/to-object-path/-/to-object-path-0.3.0.tgz",
+      "dev": true
+    },
+    "tslib": {
+      "version": "1.9.3",
+      "from": "tslib@>=1.6.0 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/tslib/-/tslib-1.9.3.tgz",
+      "dev": true
+    },
+    "tslint": {
+      "version": "5.3.2",
+      "from": "tslint@5.3.2",
+      "resolved": "https://npm.allaboutapps.at/tslint/-/tslint-5.3.2.tgz",
+      "dev": true
+    },
+    "tsutils": {
+      "version": "2.29.0",
+      "from": "tsutils@>=2.0.0 <3.0.0",
+      "resolved": "https://npm.allaboutapps.at/tsutils/-/tsutils-2.29.0.tgz",
+      "dev": true
+    },
+    "type-detect": {
+      "version": "4.0.8",
+      "from": "type-detect@>=4.0.0 <5.0.0",
+      "resolved": "https://npm.allaboutapps.at/type-detect/-/type-detect-4.0.8.tgz",
+      "dev": true
+    },
+    "type-is": {
+      "version": "1.6.16",
+      "from": "type-is@>=1.6.15 <1.7.0",
+      "resolved": "https://npm.allaboutapps.at/type-is/-/type-is-1.6.16.tgz",
+      "dev": true
+    },
+    "typescript": {
+      "version": "2.3.4",
+      "from": "typescript@>=2.3.0 <2.4.0",
+      "resolved": "https://npm.allaboutapps.at/typescript/-/typescript-2.3.4.tgz",
+      "dev": true
+    },
+    "unpipe": {
+      "version": "1.0.0",
+      "from": "unpipe@>=1.0.0 <1.1.0",
+      "resolved": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
+      "dev": true
+    },
+    "url-join": {
+      "version": "2.0.5",
+      "from": "url-join@>=2.0.2 <3.0.0",
+      "resolved": "https://npm.allaboutapps.at/url-join/-/url-join-2.0.5.tgz"
+    },
+    "util-deprecate": {
+      "version": "1.0.2",
+      "from": "util-deprecate@>=1.0.1 <1.1.0",
+      "resolved": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+      "dev": true
+    },
+    "utils-merge": {
+      "version": "1.0.0",
+      "from": "utils-merge@1.0.0",
+      "resolved": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.0.tgz",
+      "dev": true
+    },
+    "vary": {
+      "version": "1.1.2",
+      "from": "vary@>=1.1.1 <1.2.0",
+      "resolved": "https://npm.allaboutapps.at/vary/-/vary-1.1.2.tgz",
+      "dev": true
+    },
+    "whatwg-fetch": {
+      "version": "2.0.4",
+      "from": "whatwg-fetch@>=0.10.0",
+      "resolved": "https://npm.allaboutapps.at/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz",
+      "dev": true
+    },
+    "which": {
+      "version": "1.3.1",
+      "from": "which@>=1.2.12 <2.0.0",
+      "resolved": "https://npm.allaboutapps.at/which/-/which-1.3.1.tgz",
+      "dev": true
+    },
+    "wordwrap": {
+      "version": "0.0.3",
+      "from": "wordwrap@>=0.0.2 <0.1.0",
+      "resolved": "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz",
+      "dev": true
+    },
+    "wrappy": {
+      "version": "1.0.2",
+      "from": "wrappy@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz",
+      "dev": true
+    }
+  }
+}

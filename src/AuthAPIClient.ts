@@ -12,7 +12,7 @@ export interface ICredentialsHandler<C> {
     /**
      * should handle unsuccessful refresh access token attempts
      */
-    refreshAccessTokenError: (error) => void;
+    refreshAccessTokenError: (error: any) => void;
     /**
      * should provide endpoint target information for refreshing access token
      */
@@ -65,7 +65,7 @@ export class AuthAPIClient<C> {
 
     private refreshAccessTokenIfNeeded<T>(request: Observable<T>): Observable<T> {
         // if there is no credentials handler -> no refresh access token handling
-        let credentialsHandler;
+        let credentialsHandler: any;
         if (!this.credentialsHandler) {
             return request;
         } else {
